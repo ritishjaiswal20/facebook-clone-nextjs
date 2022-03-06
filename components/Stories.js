@@ -2,10 +2,10 @@ import StoryCard from "./StoryCard";
 
 const stories = [
   {
-    name: "Dhwaj Sharma",
-    src: "https://images.unsplash.com/photo-1629051255944-b4e56fa5781e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    name: "Ritish",
+    src: "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
     profile:
-      "https://pbs.twimg.com/profile_images/1426990037019684867/3AEe0qpO_400x400.jpg",
+      "https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     name: "Elon Musk",
@@ -14,13 +14,20 @@ const stories = [
   },
   {
     name: "Jeff Bezos",
-    src: "https://links.papareact.com/k2j",
-    profile: "https://links.papareact.com/f0p",
+    src: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    profile:
+      "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     name: "Mark Zukerberg",
     src: "https://links.papareact.com/xql",
     profile: "https://links.papareact.com/snf",
+  },
+  {
+    name: "Mark Zukerberg",
+    src: "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    profile:
+      "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
     name: "Bill Gates",
@@ -42,5 +49,4 @@ function Stories() {
     </div>
   );
 }
-
 export default Stories;

@@ -1,3 +1,4 @@
+import InputBox from "./InputBox";
 import Stories from "./Stories";
 
 function Feed() {
@@ -5,6 +6,7 @@ function Feed() {
     <div className="flex-grow h-screen pb-44 pt-6">
       <div>
         <Stories />
+        <InputBox />
       </div>
     </div>
   );
